@@ -23,7 +23,7 @@ const Navbar = () => (
     </div>
     <div className='app_navbar-smallscreen'>
       <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => {}}/>
-      <div className='app_navbar-smallscreen-links flex_center slide-bottom'>
+      <div className='app_navbar-smallscreen_overlay flex_center slide-bottom'>
         <MdOutlineRestaurantMenu fontSize={27} className='overlay_close' onClick={() => {}}/>
         <ul className='app_navbar-links'>
           <li className='p_opensans'><a href="#home">Home</a></li>
