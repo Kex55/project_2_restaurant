@@ -25,10 +25,15 @@ const SpecialMenu = () => (
       <div className='app_specialMenu-menu_cocktails flex_center'>        
         <p className='app_specialMenu-menu_heading'>Cocktails</p>
         <div className='app_specialMenu_menu_items'>
-          {data.wines.map((wine, index) => (<MenuItem />))}
+          {data.cocktails.map((cocktail, index) => (<MenuItem />))}
           </div>
       </div>
     </div>
+
+    <div style={{marginTop: 15}}>
+      <button type="button" className='custom_button'>View More</button>
+    </div>  
+
   </div>
 );
 
