@@ -19,6 +19,12 @@ const Chef = () => (
         </div>
         <p className='p_opensans'> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
       </div>
+
+      <div className='app_chef-sign'>
+        <p>Generic Name</p>
+        <p className='p_opensans'>Chef & Founder</p>
+        <img src={images.sign} alt="sign_image" />
+      </div>
     </div>
   </div>
 );
