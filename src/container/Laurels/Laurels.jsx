@@ -3,6 +3,16 @@ import { SubHeading } from "../../components";
 import { images,data } from "../../constants";
 import './Laurels.css';
 
+const AwardCard = ({award: { imgUrl, title, subtitle}}) => (
+  <div className='app_laurels_award-card'>
+    <img src={imgUrl} alt="awards" />
+    <div className='app_laurels_awards-card_content'>
+      <p className='p_cormorant' style={{color: '#dcca87'}}>{title}</p>
+      <p className='p_opensans'>{subtitle}</p>
+    </div>
+  </div>
+)
+
 const Laurels = () => (
   <div className='app_bg app_wrapper section_padding' id='award'>
     <div className='app_wrapper_info'>
@@ -10,7 +20,7 @@ const Laurels = () => (
       <h1 className='headtext_cormorant'>Our Laurels</h1>
 
       <div className='app_laurels_awards'>
-        {data.awards.map((award) => <></>)}
+        {data.awards.map((award) => <AwardCard award={award} key={award.title} />)}
       </div>
     </div>
 
