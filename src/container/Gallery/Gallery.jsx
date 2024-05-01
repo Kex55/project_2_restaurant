@@ -34,7 +34,7 @@ const Gallery = () => {
             </div>
           ))}
         </div>
-      <div>
+      <div className='app_gallery-images_arrows'>
         <BsArrowLeftShort className='gallery_arrow-icon' onClick={() => scroll('left')} />
         <BsArrowRightShort className='gallery_arrow-icon' onClick={()=>scroll('right')} /> 
     </div>
