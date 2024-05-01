@@ -2,7 +2,7 @@ import React from 'react';
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import './Gallery.css';
-import { BsInstagram } from 'react-icons/bs';
+import { BsArrowLeftShort, BsArrowRightShort, BsInstagram } from 'react-icons/bs';
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -34,11 +34,12 @@ const Gallery = () => {
             </div>
           ))}
         </div>
-        
-
-        </div>
-      </div>
+      <div>
+        <BsArrowLeftShort className='gallery_arrow-icon' onClick={() => scroll('left')} />
+        <BsArrowRightShort className='gallery_arrow-icon' onClick={()=>scroll('right')} /> 
     </div>
+    </div>
+  </div>
   );
 };
 
