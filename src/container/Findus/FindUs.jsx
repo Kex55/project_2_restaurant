@@ -15,6 +15,10 @@ const FindUs = () => (
       </div>
       <button type="button" className='custom_button' style={{marginTop: '2rem'}}></button>
     </div>
+
+    <div className='app_wrapper_img'>
+      <img src={images.findus} alt="findus_img" />
+    </div>
   </div>
 );
 
