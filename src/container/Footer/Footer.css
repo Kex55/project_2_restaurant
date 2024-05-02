@@ -65,3 +65,39 @@
 .footer_copyright {
     margin-top: 3rem;
 }
+
+/*media queries*/
+
+@media screen and (min-width: 2000px) {
+    .app_footer-headtext  {
+        font-size: 51px;
+        line-height: 61.6px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .app_footer-links {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .app_footer-links_contact,
+    .app_footer-links_logo,
+    .app_footer-links_work {
+        margin: 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .app_footer {
+        padding: 0 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .app_footer-links_logo img:first-child {
+        width: 80%;
+    }
+}
