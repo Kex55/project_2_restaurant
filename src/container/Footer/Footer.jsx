@@ -27,6 +27,19 @@ const Footer = () => (
         <FiInstagram />
       </div>
     </div>
+
+    <div className='app_footer-links_work'>
+      <h1 className='app_footer-headtext'>Working Hours</h1>
+      <p className='p_opensans'>Monday-Friday:</p>
+      <p className='p_opensans'>08:00 am - 12:00 am</p>
+      <p className='p_opensans'>Saturday-Sunday:</p>
+      <p className='p_opensans'>07:00 am - 11:00 pm</p>
+    </div>
+
+    <div className='footer_copyright'>
+      <p className='p_opensans'>2024 Gericht. All Rights reserved.</p>
+    </div>
+
   </div>
 );
 
