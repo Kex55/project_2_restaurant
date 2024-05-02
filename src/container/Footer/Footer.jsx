@@ -16,6 +16,17 @@ const Footer = () => (
         <p className='p_opensans'>+36 213-8563</p>
       </div>
     </div>
+
+    <div className='app_footer-links_logo'>
+      <img src={images.gericht} alt="footer_logo" />
+      <p className='p_opensans'>&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+      <img src={images.spoon} alt='spoon_img' className='spoon_img' style={{marginTop: 15 }} />
+      <div className='app_footer-links_icons'>
+        <FiFacebook />
+        <FiTwitter />
+        <FiInstagram />
+      </div>
+    </div>
   </div>
 );
 
