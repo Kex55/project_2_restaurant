@@ -29,3 +29,35 @@
     width: max-content;
 }
 
+/*media queries*/
+@media screen and (min-width: 2000px) {
+    .app_newsletter-input input {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .app_newsletter-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app_newsletter-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .app_newsletter {
+        padding: 2rem 0;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .app_newsletter-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
